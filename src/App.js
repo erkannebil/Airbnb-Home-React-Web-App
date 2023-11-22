@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./component/navbar";
-import Home from "./component/home";
-import About from './component/aboutUs'; // Düzeltildi
-import Details from "./component/details";
-import Contact from "./component/contacksAndReservations";
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import Navbar from "./component/Pages/navbar";
+import Home from "./component/Pages/home";
+import About from './component/Pages/aboutUs'; // Düzeltildi
+import Details from "./component/Pages/details";
+import Contact from "./component/Pages/contacksAndReservations";
 import "./App.css";
 
 class App extends Component {
@@ -22,10 +20,29 @@ class App extends Component {
                         <Route path="/aboutUs" element={<About />} /> {/* Düzeltildi */}
                         <Route path="/contacksAndReservations" element={<Contact />} />
                     </Routes>
+                    
                 </div>
             </Router>
+
+
         );
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default App;
