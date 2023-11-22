@@ -1,6 +1,9 @@
 import React from "react";
  
 function Contact() {
+    <h1>
+                page contackt and reservations
+            </h1>
     return (
         <address>
             You can find us here:
