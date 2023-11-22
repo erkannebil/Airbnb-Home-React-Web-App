@@ -5,7 +5,7 @@ import Navbar from "./component/navbar"; // Assuming you have a Navbar component
 import Home from "./component/home";
 import About from "./component/about";
 import Contact from "./component/contact";
-import "./App.css";
+import "./App.css" ;
 
 class App extends Component  {
     render() {
