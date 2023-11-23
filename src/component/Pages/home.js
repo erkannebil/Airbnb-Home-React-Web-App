@@ -1,5 +1,6 @@
 import React from 'react';
-import Carousel from '../carousel'; 
+import { Carousel } from "./Carousel";
+
 
 
 const features = [
@@ -71,7 +72,9 @@ const Home = () => {
 
 
      <section>
-      <Carousel/>
+     <div className="App">
+      <Carousel />
+    </div>
      </section>
 
     </div>
