@@ -1,5 +1,4 @@
 import React from 'react';
-import { Carousel } from "./Carousel";
 
 
 
@@ -73,7 +72,7 @@ const Home = () => {
 
      <section>
      <div className="App">
-      <Carousel />
+      
     </div>
      </section>
 
