@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 const features = [
   { name: 'Göl erişimi', description: 'Evinizde özel bir göl erişimi keyfi yaşayın. Doğanın güzellikleriyle çevrili, huzur dolu anlar için ideal bir ortam.' },
   { name: 'Wifi', description: 'Wi-Fi ile bağlantınızı kesintisiz sürdürün' },
@@ -69,7 +71,9 @@ const Home = () => {
 
 
      <section>
-    
+     <div className="App">
+      
+    </div>
      </section>
 
     </div>
