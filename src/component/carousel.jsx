@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from 'components/ExampleCarouselImage';
+import ExampleCarouselImage from 'components/exampleCarouselImage';
 
 function CarouselFadeExample() {
   return (
@@ -31,4 +31,4 @@ function CarouselFadeExample() {
   );
 }
 
-export default CarouselFadeExample;
+export default Carousel;

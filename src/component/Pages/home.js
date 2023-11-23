@@ -1,4 +1,6 @@
 import React from 'react';
+import Carousel from '../carousel'; 
+
 
 const features = [
   { name: 'Göl erişimi', description: 'Evinizde özel bir göl erişimi keyfi yaşayın. Doğanın güzellikleriyle çevrili, huzur dolu anlar için ideal bir ortam.' },
@@ -69,7 +71,7 @@ const Home = () => {
 
 
      <section>
-      
+      <Carousel/>
      </section>
 
     </div>
