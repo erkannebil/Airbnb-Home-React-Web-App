@@ -85,21 +85,34 @@ const Home = () => {
               </svg>
               <Blockquote>
                 <p className="text-2xl font-medium italic text-gray-900 dark:text-black">
-                  "Hoş geldiniz cennetin kapılarına, adeta bir rüya gibi olan Villa Karam'a! Burası sadece bir tatil evi değil, 
-                  hayallerinizin gerçekleştiği bir kaçamak noktasıdır. 
-                  Doğanın güzellikleriyle çevrili, göl erişimi ile kucaklaşan bu eşsiz mekan, sizlere unutulmaz bir tatil vaat ediyor.Her bir anınızı 
-                  özel kılmak için buradayız. 
-                  Unutulmaz anılar biriktirmeniz için sizi Villa Karam'a davet ediyoruz. Tatilinizi başlatın, çünkü Villa Anahtarı sizi bekliyor! "</p>
+                 "The place is amazing, quite and felt like an escape from all stress, the host is very helpful and friendly, i highly recommend the place and the host.
+5 stars and even more. "</p>
               </Blockquote>
               <figcaption className="mt-6 flex items-center justify-center space-x-3">
                 {/* Assuming Avatar is a component that accepts 'rounded', 'size', 'img', and 'alt' as props */}
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <cite className="pr-3 font-medium text-gray-900 dark:text-white">Micheal Gough</cite>
+                  <cite className="pr-3 font-medium text-gray-900 dark:text-white">Rawan</cite>
+                  <cite className="pl-3 text-sm text-gray-500 dark:text-gray-400">Guest From Airbnb</cite>
                 </div>
               </figcaption>
             </figure>
           </Blockquote>
         </div>
+      </section>
+
+      // bu kısmı yorum barı olarak kullan airbnbdeki yorumlardan ufak bir slaydır oluştur 2
+      // column kullanabilirsin yada 2 column 2 row gibi bişey
+
+
+      <section>
+        <div>
+
+
+
+
+        </div>
+
+
       </section>
 
     </div>
