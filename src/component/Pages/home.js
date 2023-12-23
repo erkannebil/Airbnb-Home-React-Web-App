@@ -85,8 +85,10 @@ const Home = () => {
               </svg>
               <Blockquote>
                 <p className="text-2xl font-medium italic text-gray-900 dark:text-black">
-                 "The place is amazing, quite and felt like an escape from all stress, the host is very helpful and friendly, i highly recommend the place and the host.
-5 stars and even more. "</p>
+                 "The place is amazing, quit felt like an escape from 
+                 all stress, the host is very helpful and friendly, 
+                 i highly recommend the place and the host.
+                  5 stars and even more. "</p>
               </Blockquote>
               <figcaption className="mt-6 flex items-center justify-center space-x-3">
                 {/* Assuming Avatar is a component that accepts 'rounded', 'size', 'img', and 'alt' as props */}
@@ -99,10 +101,6 @@ const Home = () => {
           </Blockquote>
         </div>
       </section>
-
-      // bu kısmı yorum barı olarak kullan airbnbdeki yorumlardan ufak bir slaydır oluştur 2
-      // column kullanabilirsin yada 2 column 2 row gibi bişey
-
 
       <section>
         <div>
